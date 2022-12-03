@@ -1,0 +1,32 @@
+.notFound-container {
+  margin-left: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .notFound-container {
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.notFound-image {
+  width: 30%;
+}
+@media screen and (max-width: 768px) {
+  .notFound-image {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .notFound-description {
+    width: 100%;
+    text-align: center;
+  }
+}

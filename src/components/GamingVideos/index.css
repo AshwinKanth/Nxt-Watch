@@ -1,0 +1,36 @@
+.gamingVideos-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+  min-height: 100vh;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+@media screen and (max-width: 768px) {
+  .gamingVideos-container {
+    margin-left: 0px;
+    margin-top: 55px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .gamingVideos-container {
+    margin-left: 290px;
+  }
+}
+.gamingTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.gaming {
+  padding-left: 10px;
+  font-size: 28px;
+}
+
+.gamingVideosList-container {
+  display: flex;
+  flex-wrap: wrap;
+}

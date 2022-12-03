@@ -1,0 +1,53 @@
+.homeVideoCardDetails {
+  list-style: none;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+.cardDetails {
+  text-decoration: none;
+}
+.thumbnailImage {
+  height: 150px;
+  width: 300px;
+}
+.video-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.profileImgUrl {
+  height: 30px;
+  margin-top: 15px;
+  padding-right: 10px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 11px;
+}
+.viewsAndTime {
+  font-family: 'Roboto';
+  font-size: 11px;
+}
+.time {
+  padding-left: 20px;
+}
+.fontBlack {
+  color: #cbd5e1;
+}
+.fontWhite {
+  color: #424242;
+}
+
+@media screen and (max-width: 768px) {
+  .mobileView {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+.gamingListItem {
+  list-style: none;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.gamingVideosLink {
+  text-decoration: none;
+}
+.GamingTitle {
+  font-size: 17px;
+}
+.views {
+  font-size: 12px;
+}
+.GamingThumbnailImage {
+  height: 300px;
+  width: 200px;
+}
+@media screen and (max-width: 768px) {
+  .GamingThumbnailImage {
+    width: 300px;
+    height: 330px;
+  }
+  .gamingListItem {
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,125 @@
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-left: 50px;
+  width: 100%;
+  position: fixed;
+}
+
+.navbar-responsive-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.website-logo {
+  width: 30%;
+  height: 30%;
+  cursor: pointer;
+}
+
+.navItems-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.themeButton {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+}
+.profile-img {
+  width: 13%;
+}
+.logout-button {
+  height: 28px;
+  width: 90px;
+  border-color: #3b82f6;
+  color: #3b82f6;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border-style: solid;
+  background-color: transparent;
+}
+@media screen and (max-width: 768px) {
+  .logout-button {
+    display: none;
+  }
+  .website-logo {
+    width: 50%;
+  }
+  .profile-img {
+    width: 12%;
+  }
+  .logOutIcon {
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+  }
+  .navbar-container {
+    padding: 10px;
+  }
+}
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .logOutIcon {
+    display: none;
+  }
+}
+
+.modal-container {
+  background-color: #606060;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .modal-container {
+    padding: 12px;
+  }
+}
+.warning-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cancel-button {
+  height: 35px;
+  width: 80px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  cursor: pointer;
+}
+.conform-button {
+  height: 35px;
+  width: 80px;
+  background-color: #3b82f6;
+  border-width: 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+}

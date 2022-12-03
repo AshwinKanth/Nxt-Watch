@@ -1,0 +1,186 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+  min-height: 100vh;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .home-container {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .homeVideos-container {
+    padding-top: 10px;
+  }
+}
+.homeVideos-container {
+  padding-top: 30px;
+}
+@media screen and (min-width: 912px) {
+  .home-container {
+    padding-left: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home-container {
+    padding-left: 0px;
+  }
+}
+.search-container {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 90px;
+  padding-bottom: 0px;
+  width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .search-container {
+    width: 300px;
+    margin-bottom: 0px;
+  }
+}
+.searchIcon {
+  height: 30px;
+  width: 30px;
+  padding-top: 10px;
+}
+.input {
+  width: 400px;
+  margin-bottom: 0px;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+.banner-container {
+  width: 100%;
+  padding: 20px;
+  margin-top: 80px;
+  margin-left: 14px;
+  height: 40vh;
+}
+@media screen and (max-width: 768px) {
+  .banner-container {
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    height: 30%;
+  }
+}
+.closeButton {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+}
+
+.premium-description {
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .premium-description {
+    font-size: 12px;
+  }
+}
+
+.GetNow-button {
+  height: 30px;
+  width: 120px;
+  background-color: transparent;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.failure-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .failure-container {
+    padding: 30px;
+    text-align: center;
+  }
+}
+
+.failure-image {
+  width: 30%;
+}
+@media screen and (max-width: 768px) {
+  .failure-image {
+    width: 50%;
+  }
+}
+
+.retryButton {
+  height: 30px;
+  width: 100px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  .retryButton {
+    width: 80px;
+    height: 25px;
+  }
+}
+
+.homeLoader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.searchFailure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .searchFailure-container {
+    margin-top: 170px;
+  }
+}
+.searchFailure-img {
+  width: 25%;
+}
+@media screen and (max-width: 768px) {
+  .searchFailure-img {
+    width: 40%;
+  }
+}
+.noSearch-heading {
+  font-size: 20px;
+}
